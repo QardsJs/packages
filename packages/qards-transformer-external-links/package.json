@@ -24,6 +24,7 @@
     "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.13",
     "@types/node": "^12.0.2",
+    "cross-env": "^5.2.0",
     "is-absolute-url": "^3.0.0",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
@@ -33,5 +34,5 @@
     "mdast-util-definitions": "^1.2.3",
     "unist-util-visit": "^1.4.1"
   },
-  "gitHead": "1b429d4854013aa166d5702e5e209ae078c8384f"
+  "gitHead": "4cdc589e294deafc9c462e9423d2ee2151c98c60"
 }
