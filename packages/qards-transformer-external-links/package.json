@@ -1,6 +1,6 @@
 {
   "name": "qards-transformer-external-links",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Creates external links based on post specs and general config. This is a plugin for Qards which is a GatsbyJs CMS (https://qards.io)",
   "main": "index.js",
   "scripts": {
