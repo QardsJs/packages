@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f88a452d-ef35-4546-b13a-da309ee306be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/qards-transformer-external-links/lib/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/qards-transformer-external-links/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/qards-transformer-external-links/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +31,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                <state relative-caret-position="133">
+                  <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="13" selection-start-column="13" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -52,7 +62,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="647">
+                <state relative-caret-position="628">
                   <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
                 </state>
               </provider>
@@ -79,7 +89,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/packages/qards-plugin-external-links/index.js" />
         <option value="$PROJECT_DIR$/packages/qards-plugin-external-links/index.ts" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/packages/qards-plugin-external-links/.gitignore" />
         <option value="$PROJECT_DIR$/types.ts" />
         <option value="$PROJECT_DIR$/packages/qards-plugin-external-links/__tests__/index.ts" />
@@ -93,6 +102,7 @@
         <option value="$PROJECT_DIR$/packages/qards-plugin-external-links/package.json" />
         <option value="$PROJECT_DIR$/packages/transformer-external-links/LICENSE.md" />
         <option value="$PROJECT_DIR$/packages/transformer-external-links/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/packages/qards-transformer-external-links/package.json" />
       </list>
     </option>
@@ -127,20 +137,6 @@
               <item name="qards_packages" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
               <item name="qards-transformer-external-links" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qards_packages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qards_packages" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="qards-transformer-external-links" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qards_packages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qards_packages" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="qards-transformer-external-links" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,18 +189,18 @@
       <updated>1558312627692</updated>
       <workItem from="1558312628774" duration="3036000" />
       <workItem from="1558429109180" duration="5000" />
-      <workItem from="1558535582320" duration="9359000" />
+      <workItem from="1558535582320" duration="10174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12400000" />
+    <option name="totallyTimeSpent" value="13215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="3840" height="1570" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11808118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11808118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -221,7 +217,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.3294676" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.3294676" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,13 +233,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -304,7 +293,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
+        <state relative-caret-position="628">
           <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
@@ -354,10 +343,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
