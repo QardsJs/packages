@@ -15,7 +15,7 @@
     "links"
   ],
   "author": "Romeo Mihalcea",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
@@ -30,5 +30,6 @@
   "dependencies": {
     "mdast-util-definitions": "^1.2.3",
     "unist-util-visit": "^1.4.1"
-  }
+  },
+  "gitHead": "ee01ad463ddd0ed212ae10040320c3b6e32aec25"
 }
