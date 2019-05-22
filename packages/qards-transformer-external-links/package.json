@@ -1,0 +1,34 @@
+{
+  "name": "qards-transformer-external-links",
+  "version": "1.0.0",
+  "description": "Creates external links based on post specs and general config. This is a plugin for Qards which is a GatsbyJs CMS (https://qards.io)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "mkdir -p lib && babel --out-file ./lib/index.js ./src/index.ts"
+  },
+  "keywords": [
+    "qards",
+    "qards.io",
+    "external",
+    "links",
+    "links"
+  ],
+  "author": "Romeo Mihalcea",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.2",
+    "is-absolute-url": "^3.0.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "mdast-util-definitions": "^1.2.3",
+    "unist-util-visit": "^1.4.1"
+  }
+}

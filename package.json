@@ -1,0 +1,7 @@
+{
+  "name": "qards-modules",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
+}
