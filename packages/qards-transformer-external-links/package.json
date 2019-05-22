@@ -1,5 +1,5 @@
 {
-  "name": "@qards/transformer-external-links",
+  "name": "qards-transformer-external-links",
   "version": "0.1.2",
   "description": "Creates external links based on post specs and general config. This is a plugin for Qards which is a GatsbyJs CMS (https://qards.io)",
   "main": "lib/index.js",
@@ -31,5 +31,5 @@
     "mdast-util-definitions": "^1.2.3",
     "unist-util-visit": "^1.4.1"
   },
-  "gitHead": "ee01ad463ddd0ed212ae10040320c3b6e32aec25"
+  "gitHead": "1b429d4854013aa166d5702e5e209ae078c8384f"
 }
