@@ -2,7 +2,7 @@ const visit = require('unist-util-visit');
 const definitions = require('mdast-util-definitions');
 const isAbsoluteURL = require('is-absolute-url');
 
-interface GatsbyPluginPRops {
+interface GatsbyPluginProps {
 	markdownAST: string;
 }
 
@@ -47,7 +47,7 @@ function externalLinks(options: PluginOptions) {
 				for (let i = 0; i < bypassNofollow.length; i++) {
 					const rule = bypassNofollow[i];
 
-					if (ctx.url.includes(rule) && rel.includes('nofollow')) {
+					if (ctx.url.toLowerCase().includes(rule.toLowerCase()) && rel.includes('nofollow')) {
 						const index = rel.indexOf('nofollow');
 						if (index !== -1) rel.splice(index, 1);
 					}
@@ -60,12 +60,12 @@ function externalLinks(options: PluginOptions) {
 	}
 }
 
-module.exports = ({markdownAST}: GatsbyPluginPRops, options: PluginOptions = {
+module.exports = ({markdownAST}: GatsbyPluginProps, options: PluginOptions = {
 	//	defaults
 	target        : defaultTarget,
 	rel           : defaultRel,
 	protocols     : defaultProtocols,
-	bypassNofollow: ['*qards.io']
+	bypassNofollow: ['qards.io']
 }) => {
 	const transformer = externalLinks(options);
 	transformer(markdownAST);

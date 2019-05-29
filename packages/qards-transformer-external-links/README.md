@@ -19,4 +19,5 @@ This is a `remark` plugin and it should be placed inside `gatsby-transformer-rem
 },
 ```
 
+The plugin is developed for `Qards` which is a [Gatsby CMS](https://qards.io) so keep that in mind as it may suffer changes that will not allow it to run on regular Gatsby apps.
 It's no different from [gatsby-remark-external-links](https://github.com/JLongley/gatsby-remark-external-links) except for the `bypassNofollow` directive which I wanted.

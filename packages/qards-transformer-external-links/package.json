@@ -13,9 +13,9 @@
     "qards",
     "qards.io",
     "external",
-    "links",
     "links"
   ],
+  "repository": "https://github.com/QardsJs/packages/tree/master/packages/qards-transformer-external-links",
   "author": "Romeo Mihalcea",
   "license": "MIT",
   "devDependencies": {
