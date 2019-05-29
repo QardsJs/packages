@@ -22,7 +22,6 @@ function externalLinks(options: PluginOptions) {
 	const opts = options || {};
 	const target = opts.target || defaultTarget;
 	const protocols = opts.protocols || defaultProtocols;
-	const rel = opts.rel.length > 0 ? opts.rel : defaultRel;
 	const bypassNofollow = opts.bypassNofollow || [];
 
 	return transform;
@@ -44,10 +43,15 @@ function externalLinks(options: PluginOptions) {
 				data = node.data || (node.data = {});
 				props = data.hProperties || (data.hProperties = {});
 
-				for (let i = 0; i < bypassNofollow.length; i++) {
-					const rule = bypassNofollow[i];
+				//	copy then modify
+				const rel = [...(opts.rel.length > 0 ? opts.rel : defaultRel)];
 
-					if (ctx.url.toLowerCase().includes(rule.toLowerCase()) && rel.includes('nofollow')) {
+				for (let i = 0; i < bypassNofollow.length; i++) {
+					const rule = bypassNofollow[i].toLowerCase();
+
+					if (!rel.includes('nofollow')) continue;
+
+					if (ctx.url.toLowerCase().includes(rule) && rel.includes('nofollow')) {
 						const index = rel.indexOf('nofollow');
 						if (index !== -1) rel.splice(index, 1);
 					}

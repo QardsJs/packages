@@ -64,10 +64,11 @@ test('Should respect bypassNofollow props', () => {
 			children: [{type: 'text', value: 'alpha'}]
 		},
 	};
+
 	qPackage(props, {
 		target        : '_self',
 		rel           : ['nofollow', 'noopener', 'noreferrer'],
-		bypassNofollow: ['example.com']
+		bypassNofollow: ['example.com', 'test.com', '1test.com']
 	});
 
 	expect(props).toStrictEqual({

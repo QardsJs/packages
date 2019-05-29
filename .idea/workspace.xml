@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f88a452d-ef35-4546-b13a-da309ee306be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/qards-transformer-external-links/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/qards-transformer-external-links/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/qards-transformer-external-links/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/qards-transformer-external-links/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,17 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/index.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="1236">
+              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -39,8 +29,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1179">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="780">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -85,6 +84,7 @@
         <option value="$PROJECT_DIR$/packages/qards-core-ui/README.md" />
         <option value="$PROJECT_DIR$/packages/qards-widget-countdown/src/index.ts" />
         <option value="$PROJECT_DIR$/packages/qards-widget-countdown/src/styles.tsx" />
+        <option value="$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts" />
         <option value="$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.ts" />
       </list>
     </option>
@@ -182,18 +182,19 @@
       <workItem from="1558312628774" duration="3036000" />
       <workItem from="1558429109180" duration="5000" />
       <workItem from="1558535582320" duration="15124000" />
-      <workItem from="1559152170714" duration="228000" />
+      <workItem from="1559152170714" duration="2566000" />
+      <workItem from="1559171999865" duration="1371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18393000" />
+    <option name="totallyTimeSpent" value="22102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="3840" height="1570" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118608326" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11913548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -210,7 +211,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.3294676" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.3294676" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="108" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/qards-core-ui/package.json" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -327,31 +321,38 @@
     <entry file="file://$PROJECT_DIR$/packages/qards-widget-countdown/src/index.tsx" />
     <entry file="file://$PROJECT_DIR$/packages/qards-widget-countdown/package.json" />
     <entry file="file://$PROJECT_DIR$/packages/qards-widget-countdown/src/styles.tsx" />
-    <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts">
+    <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="380">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/index.js">
+    <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="722">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="304">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1236">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/qards-transformer-external-links/src/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1179">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="780">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
         </state>
       </provider>
     </entry>
